@@ -1,16 +1,16 @@
 package com.tit.json.objecttojson;
 
-public class StudentData {
-    private String name;
-    private int age;
-    private int marks;
+public class Car {
+    private String car_Name;
+    private int car_Num;
+    private String car_Model;
 
-    public StudentData(String name, int age, int marks){
-        this.name = name;
-        this.age = age;
-        this.marks = marks;
+    public Car(String car_Name, int car_Num, String car_Model){
+        this.car_Model = car_Model;
+        this.car_Num = car_Num;
+        this.car_Name = car_Name;
     }
-    public String getName(){return name;}
-    public int getAge(){return age;}
-    public int getMarks(){return marks;}
+    public String getCar_Name(){return car_Name;}
+    public int getCar_Num(){return car_Num;}
+    public String getCar_Model(){return car_Model;}
 }
